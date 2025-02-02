@@ -1,22 +1,11 @@
 import React from 'react';
-<<<<<<< HEAD
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-=======
 import { Container, Accordion } from 'react-bootstrap';
 import { Row, Col } from 'react-bootstrap';
 import '../asset/styles/Mention.css';
->>>>>>> secondaire
 
 
 function MentionsLegales() {
     return (
-<<<<<<< HEAD
-        <div className="container">
-            <h1 className="text-center">Mentions légales</h1>
-            <hr style={{ backgroundColor: 'blue', height: '8px', width: '100px', margin: ' auto' }} />
-=======
         <div className="mentions-legales-page">
             <Container className="mt-5 mb-5">
                 <h1 className="text-center mb-5">Mentions Légales</h1>
@@ -71,13 +60,8 @@ function MentionsLegales() {
 
                 </Accordion>
             </Container>
->>>>>>> secondaire
         </div>
     );
 }
 
-<<<<<<< HEAD
-export default Mention;
-=======
 export default MentionsLegales;
->>>>>>> secondaire

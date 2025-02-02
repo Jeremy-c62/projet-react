@@ -18,7 +18,7 @@ function ModaleComponent() {
             {/* Modale fusionnée */}
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>À propos de moi & Mon profil GitHub</Modal.Title>
+                    <Modal.Title>Mon profil GitHub</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="text-center">
                     {/* Section À propos de moi */}
