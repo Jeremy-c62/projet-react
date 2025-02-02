@@ -1,26 +1,39 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import '../src/style/Navigation.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../asset/styles/Navbar.css';
+import '../asset/styles/Contact.css';
 
-const Navigation = () => {
+function Navbar() {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+        <nav className="navbar navbar-expand-md navbar-light bg-black">
             <div className="container">
-                <Navbar.Brand as={Link} to="/">John Doe</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbar-nav" />
-                <Navbar.Collapse id="navbar-nav">
-                    <Nav className="ms-auto">
-                        <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/services">Services</Nav.Link>
-                        <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
-                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-                        <Nav.Link as={Link} to="/mentions-legales">Mentions Légales</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+                <Link className="navbar-brand text-white" to="/">Cochez Jérémy</Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <Link className="nav-link text-white" to="/">Acceuil</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-white" to="/Service">Service</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-white" to="/Portfolio">Portfolio</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-white" to="/contact">Contact</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link text-white" to="/Mention">Mention Légales</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </Navbar>
+        </nav>
     );
-};
+}
 
-export default Navigation;
+export default Navbar;
