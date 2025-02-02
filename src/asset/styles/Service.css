@@ -1,0 +1,50 @@
+/* Styles pour la section avec l'image en arrière-plan */
+.services-banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services-banner .text-center {
+    background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 20px; /* Ajout de padding */
+    border-radius: 10px; /* Bordures arrondies */
+  }
+  
+  .services-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .services-banner p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  /* Styles pour les cartes de services */
+  .service-card {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Fond clair pour les cartes */
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+  }
+  
+  .service-card i {
+    font-size: 3rem;
+    color: #007bff;
+  }
+  
+  .service-card h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
