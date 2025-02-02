@@ -1,0 +1,7 @@
+.custom-form .form-control {
+    margin-bottom: 10px;  /* Réduit la marge extérieure (espace entre les champs) */
+}
+
+.btn {
+    margin-left: 250px;
+}
