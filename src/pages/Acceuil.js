@@ -20,9 +20,8 @@ function HomePage() {
                 <section className="hero-section" style={{ backgroundImage: `url(${BackgroundImage})` }}>
                     <h1 className="hero-title">Bonjour, je suis Jérémy Cochez</h1>
                     <h2 className="hero-subtitle">Développeur web full stack</h2>
-
                     {/* Modale */}
-                    <ModalEnSavoirPlus isOpen={isModalOpen} handleClose={handleCloseModal} />
+                    <ModalEnSavoirPlus isOpen={isModalOpen} handleClose={handleCloseModal} onClick={handleOpenModal} />
                 </section>
             </div>
 
