@@ -69,7 +69,7 @@ function ContactInfo() {
             <h3>Mes coordonnées</h3>
             <hr style={{ backgroundColor: 'blue', height: '2px', width: '100px', margin: '0 auto' }} />
             <address>
-                <p><strong>John Doe</strong></p>
+                <p>Cochez Jérémy</p>
                 <p> <a href="https://www.google.com/maps?q=123+rue+de+la+liberter+59300+Valenciennes,+France" target="_blank" rel="noopener noreferrer">123 rue de la Liberté<br />59300 Valenciennes, France</a></p>
                 <p> <a href="tel:+33606060606">06 06 06 06 06</a></p>
                 <p> <a href="mailto:Mon@gmail.com">Mon@gmail.com</a></p>
