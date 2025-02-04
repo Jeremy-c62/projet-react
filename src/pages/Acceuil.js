@@ -88,7 +88,7 @@ function HomePage() {
                         </div>
 
                         <div className="progress-wrapper mb-3">
-                            <p >REACT 50%</p>
+                            <p className='Competence'>REACT 50%</p>
                             <div className="progress">
                                 <div className="progress-bar bg-info" role="progressbar" style={{ width: '50%' }}>
                                     50%

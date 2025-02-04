@@ -6,12 +6,13 @@ import espaceBienEtreImage from "../asset/images/portfolio/espace-bien-etre.jpg"
 import seo from "../asset/images/portfolio/seo.jpg";
 import creationApi from "../asset/images/portfolio/coder.jpg";
 import Maquette from "../asset/images/portfolio/screens.jpg";
+import '../asset/styles/Portfolio.css';
 
 const Task = ({ imageSrc, title, description, link, tech }) => {
     return (
         <div className="card h-100 d-flex flex-column">
             <img src={imageSrc} className="card-img-top img-fluid" alt={title} />
-            <div className="card-body d-flex flex-column text-center"> {/* Texte centré */}
+            <div className="card-body d-flex flex-column text-center">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{description}</p>
                 <div className="mt-auto d-flex justify-content-center">
@@ -23,16 +24,23 @@ const Task = ({ imageSrc, title, description, link, tech }) => {
             <div className="card-footer text-center">
                 <p className="text-muted">{tech}</p>
             </div>
-        </div >
+        </div>
     );
 };
 
 const Portfolio = () => {
     return (
         <div className="container my-5">
+            {/* Titre principal et sous-titre */}
+            <div className="text-center mb-4">
+                <h1>Portfolio</h1>
+                <h2>Voici quelqu’une de mes réalisations</h2>
+                {/* Barre de séparation avec une classe CSS */}
+                <div className="blue-separator"></div>
+            </div>
+
             {/* Grille des cartes */}
             <div className="row row-cols-1 row-cols-md-3 g-4">
-                {/* Première ligne des cartes */}
                 <div className="col">
                     <Task
                         imageSrc={freshFoodImage}
@@ -62,7 +70,6 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            {/* Deuxième ligne des cartes */}
             <div className="row row-cols-1 row-cols-md-3 g-4 mt-4">
                 <div className="col">
                     <Task

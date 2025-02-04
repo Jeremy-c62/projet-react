@@ -20,6 +20,7 @@ const Services = () => {
                 <h1>Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
             </div>
+            <div className="blue-separator"></div>
 
 
             {/* Section avec les cartes de services */}

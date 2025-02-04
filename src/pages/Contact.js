@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../asset/styles/Contact.css'
 
-// Header Component
 function Header() {
     return (
         <header className="text-center mt-5">
@@ -13,7 +12,6 @@ function Header() {
     );
 }
 
-// Contact Form Component
 function ContactForm() {
     const [formData, setFormData] = useState({
         name: '',
@@ -59,7 +57,7 @@ function ContactForm() {
     );
 }
 
-// Contact Info and Google Maps Component
+// Google Maps Component
 function ContactInfo() {
     return (
         <div className="contact-info p-3">
@@ -90,7 +88,7 @@ function ContactInfo() {
     );
 }
 
-// Main Contact Page Component
+// Page Component
 function ContactPage() {
     return (
         <div className="container">
@@ -106,8 +104,6 @@ function ContactPage() {
                         </div>
                     </div>
                 </div>
-
-                {/* Contact Info with Google Map */}
                 <div className="col-md-6">
                     <div className="card">
                         <div className="card-body">

@@ -5,3 +5,39 @@
 .btn {
     margin-left: 250px;
 }
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+
+a:hover {
+    text-decoration: underline; /* Ajoutez cette ligne si vous souhaitez souligner les liens au survol */
+    color: blue;
+}
+
+.info{
+    margin-bottom: 0px;
+}
+
+.mb-3{
+    margin-bottom: 0px;
+}
+.form-label{
+    margin-bottom: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+#message{
+    height: 200px;
+}
+
+.blue-separator {
+    width: 200px;
+    height: 4px; /* épaisseur de la barre */
+    background-color: var(--bs-primary); /* Utilise la couleur bleue primaire de Bootstrap */
+    margin: 0 auto 30px; /* Centré avec un margin-bottom de 10px */
+  }
