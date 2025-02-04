@@ -1,0 +1,22 @@
+.social-links a {
+    transition: color 0.3s ease; /* Transition pour un effet fluide */
+    color: rgba(255, 255, 255, 0.7); /* Couleur initiale légèrement transparente */
+}
+
+.social-links a:hover {
+    color: #ffffff; /* Les icônes deviennent complètement blanches au survol */
+}
+
+/* Pour les liens du pied de page */
+.footer a {
+    font-weight: normal;
+    text-decoration: none; /* Sans soulignement par défaut */
+    transition: font-weight 0.3s ease, text-decoration 0.3s ease; /* Transition fluide pour le changement de style */
+    color: rgba(255, 255, 255, 0.7); /* Couleur légèrement transparente */
+}
+
+.footer a:hover {
+    font-weight: bold; /* Met en gras au survol */
+    text-decoration: underline; /* Souligner le texte au survol */
+    color: #ffffff; /* Couleur pleine au survol */
+}

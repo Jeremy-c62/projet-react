@@ -3,33 +3,32 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'; // Import pour les liens de navigation
 import { HashLink } from 'react-router-hash-link'; // Import HashLink pour les ancres sur d'autres pages
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Import des icônes pour les réseaux sociaux
-import '../asset/styles/Contact.css';
+import '../asset/styles/Footer.css';
 
 function Footer() {
     return (
-        <footer className="bg-black text-white text-center text-lg-start">
+        <footer className="bg-black text-white text-center text-lg-start footer"> {/* Ajoutez la classe 'footer' */}
             <div className="container p-4">
                 <div className="row">
                     {/* Section adresse */}
                     <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 className="text-uppercase">Adresse</h5>
+                        <h5 className="text-uppercase">John Doe</h5>
                         <address>
                             <p>123 Rue de l'Innovation,</p>
-                            <p>62000 Pas-de-calais,</p>
-                            <p>France</p>
-                        </address>
-                        <p className="phoneNumber">Téléphone :<a href="tel:0606060606">06 06 06 06 06</a></p>
-                        <p>Email : <a href="mailto:contact@monprojet.com" className="text-white">Mon@adressemail.com</a></p>
+                            <p>62000 Pas-de-calais, France</p>
 
+                            <p className="phoneNumber">06 06 06 06 06</p>
+                            <p>Email : <a href="mailto:contact@monprojet.com" className="text-white">Mon@adressemail.com</a></p>
+                        </address>
                         {/* Liens vers les réseaux sociaux */}
                         <div className="social-links">
-                            <a href="https://github.com/Jeremy-c62" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+                            <a href="https://github.com/Jeremy-c62" target="_blank" rel="nofollow noopener noreferrer" className="text-white me-3">
                                 <FaGithub size={30} />
                             </a>
-                            <a href="https://www.linkedin.com/in/votreprofil" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+                            <a href="https://www.linkedin.com/in/votreprofil" target="_blank" rel="nofollow noopener noreferrer" className="text-white me-3">
                                 <FaLinkedin size={30} />
                             </a>
-                            <a href="https://twitter.com/votreprofil" target="_blank" rel="noopener noreferrer" className="text-white me-3">
+                            <a href="https://twitter.com/votreprofil" target="_blank" rel="nofollow noopener noreferrer" className="text-white me-3">
                                 <FaTwitter size={30} />
                             </a>
                         </div>

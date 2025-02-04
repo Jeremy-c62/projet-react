@@ -37,6 +37,7 @@ function HomePage() {
                         {/* A propos */}
                         <div className="about-content">
                             <h3>A propos</h3>
+                            <div className="blue-separator"></div>
                             <img src={Image} alt="Un Homme brun concentré" className="about-image" />
                             <p>
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
@@ -55,21 +56,19 @@ function HomePage() {
                         {/* Compétences */}
                         <div className="skills-content">
                             <h3>Mes compétences</h3>
+                            <div className="blue-separator"></div>
 
-                            <div className="progress-wrapper mb-3 sm-6">
+                            <div className="progress-wrapper mb-3 ">
                                 <p className="Competence">HTML5 90%</p>
                                 <div className="progress">
                                     <div className="progress-bar bg-danger" role="progressbar" style={{ width: '90%' }}>
-                                        90%
                                     </div>
                                 </div>
                             </div>
-
                             <div className="progress-wrapper mb-3">
                                 <p className="Competence">CSS3 80%</p>
                                 <div className="progress">
                                     <div className="progress-bar bg-success" role="progressbar" style={{ width: '80%' }}>
-                                        80%
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +77,6 @@ function HomePage() {
                                 <p className="Competence">JAVASCRIPT 70%</p>
                                 <div className="progress">
                                     <div className="progress-bar bg-warning" role="progressbar" style={{ width: '70%' }}>
-                                        70%
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +85,6 @@ function HomePage() {
                                 <p className="Competence">PHP 60%</p>
                                 <div className="progress">
                                     <div className="progress-bar bg-primary" role="progressbar" style={{ width: '60%' }}>
-                                        60%
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +93,6 @@ function HomePage() {
                                 <p className="Competence">REACT 50%</p>
                                 <div className="progress">
                                     <div className="progress-bar bg-info" role="progressbar" style={{ width: '50%' }}>
-                                        50%
                                     </div>
                                 </div>
                             </div>
