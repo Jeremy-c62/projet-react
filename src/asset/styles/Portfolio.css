@@ -1,0 +1,5 @@
+.hr-primary {
+    width: 600px;
+    border: 4px solid var(--bs-primary); 
+    margin: auto;
+}
