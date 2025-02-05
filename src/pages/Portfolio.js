@@ -48,7 +48,7 @@ const Portfolio = () => {
                 {/* Titre principal et sous-titre */}
                 <div className="text-center mb-4">
                     <h1>Portfolio</h1>
-                    <h2>Voici quelqu’une de mes réalisations</h2>
+                    <h2>Voici quelques une de mes réalisations</h2>
                     {/* Barre de séparation avec une classe CSS */}
                     <div className="blue-separator"></div>
                 </div>

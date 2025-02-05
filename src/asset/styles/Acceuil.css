@@ -1,7 +1,6 @@
 
 .hero-section {
-    max-width: 100%; /* La page ne dépassera pas 1200px de large */
-    max-height: auto; /* La page ne dépassera pas 1000px de haut */
+    max-width: 100%;
     margin: auto;
     position: relative;
     height: 100vh;
