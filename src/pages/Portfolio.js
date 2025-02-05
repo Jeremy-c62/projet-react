@@ -60,7 +60,7 @@ const Portfolio = () => {
                             imageSrc={freshFoodImage}
                             title="Fresh Food"
                             description="Site de vente de produits frais en ligne"
-                            link="./"
+                            link="#"
                             tech="Site réalisé avec PHP et MySQL"
                         />
                     </div>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                             imageSrc={restaurantAkiraImage}
                             title="Restaurant Akira"
                             description="Site de vente de produits frais en ligne"
-                            link="./"
+                            link="#"
                             tech="Site réalisé avec WordPress"
                         />
                     </div>
@@ -78,7 +78,7 @@ const Portfolio = () => {
                             imageSrc={espaceBienEtreImage}
                             title="Espace bien-être"
                             description="Site de vente de produits frais en ligne"
-                            link="./"
+                            link="#"
                             tech="Site réalisé avec LARAVEL"
                         />
                     </div>
@@ -90,7 +90,7 @@ const Portfolio = () => {
                             imageSrc={seo}
                             title="SEO"
                             description="Amélioration du Référencement d'un site e-commerce"
-                            link="./"
+                            link="#"
                             tech="Utilisation des SEO"
                         />
                     </div>
@@ -99,7 +99,7 @@ const Portfolio = () => {
                             imageSrc={creationApi}
                             title="Création d'un API"
                             description="Création d'une API RESTFUL publique"
-                            link="./"
+                            link="#"
                             tech="PHP-SYMFONY"
                         />
                     </div>
@@ -108,7 +108,7 @@ const Portfolio = () => {
                             imageSrc={Maquette}
                             title="Maquette d'un site web"
                             description="Création du prototype d'un site"
-                            link="./"
+                            link="#"
                             tech="Site réalisé avec FIGMA"
                         />
                     </div>
