@@ -49,13 +49,13 @@ function MentionsLegales() {
                         <Accordion.Header>Crédits</Accordion.Header>
                         <Accordion.Body>
                             <p>Ce site a été réalisé par John Doe, étudiant au
-                                <a href="https://www.centre-europeen-formation.fr" target="_blank" rel="nofollow noopener noreferrer">Centre Européen de Formation</a>.
+                                <a href="https://www.centre-europeen-formation.fr" target="_blank" rel="nofollow noopener noreferrer"> Centre Européen de Formation</a>.
                             </p>
-                            <p>Les images utilisées sur ce site proviennent de sources libres de droits et on était obtenues sur le site
-                                <a href="https://pixabay.com/fr/" target="_blank" rel="nofollow noopener noreferrer">Pixabay</a>.
+                            <p>Les images utilisées sur ce site proviennent de sources libres de droits et ont été obtenues sur le site
+                                <a href="https://pixabay.com/fr/" target="_blank" rel="nofollow noopener noreferrer"> Pixabay</a>.
                             </p>
-                            <p>Les Favicon de ce site on était obtenues sur le site
-                                <a href="https://www.flaticon.com/fr/" target="_blank" rel="nofollow noopener noreferrer">Favicon</a>.
+                            <p>Les Favicons de ce site ont été obtenues sur le site
+                                <a href="https://www.flaticon.com/fr/" target="_blank" rel="nofollow noopener noreferrer"> Favicon</a>.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>

@@ -8,14 +8,14 @@ function Navbar() {
         <nav className="navbar navbar-expand-md navbar-light bg-black">
             <div className="container">
                 <NavLink className="navbar-brand text-white" to="/">John Doe</NavLink>
-                <button className="navbar-toggler text-bg-ligh" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <NavLink exact className="nav-link text-white" activeClassName="active" to="/">
-                                Acceuil
+                                Accueil
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -35,7 +35,7 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link text-white" activeClassName="active" to="/Mention">
-                                Mention Légales
+                                Mentions Légales
                             </NavLink>
                         </li>
                     </ul>

@@ -1,4 +1,15 @@
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; 
+    align-items: center; 
+}
 
+  .about-content,
+  .skills-content {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+}
 .hero-section {
     max-width: 100%;
     margin: auto;
@@ -172,16 +183,3 @@
 /* Appliquez le flou lorsque le pop-up est ouvert */
 .main-content.blur {
   filter: blur(10px);}
-
-@media (max-width: 768px) {
-  .about-container {
-    flex-direction: column; 
-    align-items: center; 
-}
-
-  .about-content,
-  .skills-content {
-    width: 100%; 
-    margin-bottom: 20px; 
-}
-}

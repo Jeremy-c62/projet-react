@@ -68,7 +68,7 @@ function Footer() {
                                 <Link className="text-white" to="/contact">Contact</Link>
                             </li>
                             <li>
-                                <Link className="text-white" to="/Mention">Mention Légales</Link>
+                                <Link className="text-white" to="/Mention">Mentions Légales</Link>
                             </li>
                         </ul>
                     </div>
