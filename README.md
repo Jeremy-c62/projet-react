@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+1. Étude et Analyse Préliminaire
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   Analyse des maquettes : Étudier les différences de mise en page selon les formats.
+   Identification des composants réutilisables : Menu, footer, cards, formulaire de contact, etc.
+   Structure des fichiers : Organiser les composants dans des dossiers dédiés pour une meilleure gestion (ex : components, pages, assets).
 
-## Available Scripts
+2. Technologies Utilisées
 
-In the project directory, you can run:
+   Frontend : React.js
+   Styles : Bootstrap pour la structure et les styles de base, avec du CSS personnalisé pour les effets.
+   Versionning : GitHub pour le suivi des étapes du projet.
 
-### `npm start`
+3. Gestion de Projet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   Création des issues GitHub : Pour chaque fonctionnalité ou composant, créer une issue GitHub avec des étapes bien définies.
+   Réalisation de sauvegarde réguliére, ( ex :un fois qu'une page et structuré )
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   Suivi régulier avec Git : Utiliser GitHub pour versionner le projet à chaque grande étape (création du header, intégration de chaque page, etc.).
 
-### `npm test`
+4. Charte Graphique
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   Police : Utilisation de "Nunito Sans" via Google Fonts (graisse 400 pour le texte, 600 pour les titres).
+   Couleurs : Palette Bootstrap par défaut.
+   Icônes : Icônes Bootstrap et favicon téléchargé depuis Flaticon.
 
-### `npm run build`
+5. Étapes de Conception
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   1. Création de la structure du projet React :
+      Initialiser le projet React et configurer les routes de navigation (React Router).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   2. Intégration du Header et du Footer : Création de l'ossature, il sont communs à toutes les pages et doivent être conçus en premier.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   3. Création des pages principales :
 
-### `npm run eject`
+      Page d’accueil : Image de fond, texte centré, bouton modale, section de présentation de John Doe.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      Page services : Cartes Bootstrap pour afficher les services.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      Page réalisations : Portefeuille de projets, cartes Bootstrap avec effets au survol.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+      Page de contact : Formulaire avec validation des champs obligatoires.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+      Page mentions légales : Accordéon Bootstrap pour l'organisation du texte.
 
-## Learn More
+   4. Ajout des effets graphiques : Gestion des effets CSS comme les transitions, ombres et animations sur les éléments (liens, boutons, cards).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   5. Optimisation SEO : Travailler le balisage HTML pour le SEO, ajouter des meta descriptions et balises structurées.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Arborescence du Projet
 
-### Code Splitting
+   assets/ : Contient les images et les icônes.
+   components/ : Contient les composants réutilisables comme Header, Footer, Card, etc.
+   pages/ : Chaque page du site
+   styles/ : Fichiers CSS personnalisés.
+   App.js : Gère la navigation et l'affichage global du site.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+7. Livrable Final
 
-### Analyzing the Bundle Size
+   Le livrable est un dépôt GitHub contenant le code source du projet avec une documentation claire.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cette organisation permet une réalisation méthodique et progressive du projet, en suivant les attentes du brief tout en s’assurant d’une structure efficace et maintenable.
